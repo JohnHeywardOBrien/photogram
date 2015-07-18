@@ -16,7 +16,9 @@ Rails.application.routes.draw do
   #   resources :products
 
   # Example resource route with options:
-  resources :posts
+  resources :posts do
+    resources :comments
+  end
   #   resources :products do
   #     member do
   #       get 'short'
