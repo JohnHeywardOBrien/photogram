@@ -67,3 +67,5 @@ class PostsController < ApplicationController
     end
   end
 end
+
+# staring at code in an attempt to refactor. Nope. Didn't happen
